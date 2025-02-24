@@ -1,4 +1,4 @@
-https://github.com/LarryTheMagicDragon/AcerAN515-58LinuxBrightnessBypass
+https://github.com/adithyanhp/AcerAN515-47LinuxScreenBrightnessIssue/
 
 
 first download and install the files in the above website and then go to the below website and add acpi_backlight=native then save and reboot.
