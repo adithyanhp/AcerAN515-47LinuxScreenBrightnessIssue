@@ -7,7 +7,7 @@ first download and install the files in the above website and then go to the bel
 https://askubuntu.com/questions/1471092/acer-nitro-5-brightness-problem-in-22-04-2-lts
 
 
-add this to the readme file after installing the files " open in the terminal ' sudo nano /etc/default/grub '  and change the line ' GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" ' to ' GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_backlight=native" '
+add this to the readme file after installing the files " open in the terminal ' sudo nano /etc/default/grub '  and change the line ' GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" ' to ' GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_backlight=native"" '
 
 Following steps :
 
