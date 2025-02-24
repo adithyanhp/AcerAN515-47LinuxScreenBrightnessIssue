@@ -1,0 +1,19 @@
+https://github.com/LarryTheMagicDragon/AcerAN515-58LinuxBrightnessBypass
+
+
+first download and install the files in the above website and then go to the below website and add acpi_backlight=native then save and reboot.
+
+
+https://askubuntu.com/questions/1471092/acer-nitro-5-brightness-problem-in-22-04-2-lts
+
+
+add this to the readme file after installing the files " open in the terminal ' sudo nano /etc/default/grub '  and change the line ' GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" ' to ' GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_backlight=native" '
+
+Following steps :
+
+sudo nano /etc/default/grub 
+Replace GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" With GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_backlight=native"
+press ctrl+o  to save and ctrl+x close the text editor 
+sudo update-grub
+reboot your system
+
